@@ -7,3 +7,19 @@
 /** Implement a function for adding/subtracting/multiplying/dividing first entered number */
 
 /** */
+
+let scrn = document.getElementById('screentext');
+  
+function input(x){
+  scrn.value=scrn.value+x;
+
+}
+
+function allClear(){
+  scrn.value=' ';
+}
+
+function calc(){
+      scrn.value=eval(scrn.value);
+}
+
