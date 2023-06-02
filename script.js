@@ -23,3 +23,6 @@ function calc(){
       scrn.value=eval(scrn.value);
 }
 
+function backFunction(){
+       history.back();
+}

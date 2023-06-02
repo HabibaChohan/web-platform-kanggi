@@ -24,7 +24,7 @@ body {
 }
 
 .screen {
-  background-color: rgb(138, 190, 82);
+  background-color: rgb(162, 224, 96);
   font-size: 1em;
   height: 1.5em;
   border-radius: 10px;
@@ -81,3 +81,4 @@ body {
   grid-column-start: 3;
   grid-column-end: 5;
 }
+
